@@ -29,7 +29,7 @@ int diameter(struct node * tree)
   
    1) Diameter of left subtree 
    2) Diameter of right subtree 
-   3) Height of left subtree + height of right subtree + 1 */
+   3) Height of left subtree + height of right subtree + 1 
   return max(lheight + rheight + 1, max(ldiameter, rdiameter)); 
 }  
   
